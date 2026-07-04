@@ -1,0 +1,25 @@
+{
+  "name": "thomanu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --minify --outfile=dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onni891/ThoMaNu-Oy-Webflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/onni891/ThoMaNu-Oy-Webflow/issues"
+  },
+  "homepage": "https://github.com/onni891/ThoMaNu-Oy-Webflow#readme",
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}
