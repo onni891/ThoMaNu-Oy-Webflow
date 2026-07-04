@@ -1,1 +1,1 @@
-(()=>{var a=(c,o,l)=>()=>{if(l)throw l[0];try{return c&&(o=c(c=0)),o}catch(r){throw l=[r],r}};var b=(c,o)=>()=>{try{return o||c((o={exports:{}}).exports,o),o.exports}catch(l){throw o=0,l}};var n=a(()=>{});var d=b(()=>{n();console.log("Hello, World!")});d();})();
+(()=>{var n=(c,o,l)=>()=>{if(l)throw l[0];try{return c&&(o=c(c=0)),o}catch(d){throw l=[d],d}};var a=(c,o)=>()=>{try{return o||c((o={exports:{}}).exports,o),o.exports}catch(l){throw o=0,l}};var r=n(()=>{});var b=a(()=>{r();console.log("Hello, Worldddd!")});b();})();
