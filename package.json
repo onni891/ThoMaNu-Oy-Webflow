@@ -6,7 +6,8 @@
   "scripts": {
     "build": "esbuild src/index.js --bundle --minify --outfile=dist/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm run build && git add . && git commit -m \"build\" && git push origin main"
+    "deploy": "npm run build && git add . && git commit -m \"build\" && git push origin main",
+    "dev": "esbuild src/index.js --bundle --outfile=dist/bundle.js --servedir=dist --watch"
   },
   "repository": {
     "type": "git",
